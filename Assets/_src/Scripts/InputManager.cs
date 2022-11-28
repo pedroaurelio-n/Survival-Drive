@@ -5,13 +5,13 @@ namespace PedroAurelio.SurvivalDrive
 {
     public class InputManager : MonoBehaviour
     {
-        private PlayerController _controller;
+        private CarController _controller;
 
         private PlayerControls _controls;
 
         private void Awake()
         {
-            _controller = GetComponent<PlayerController>();
+            _controller = GetComponent<CarController>();
         }
 
         private void OnEnable()
